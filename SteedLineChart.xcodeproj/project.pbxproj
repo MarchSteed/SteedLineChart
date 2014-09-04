@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39AEDA8919B808B3003CF070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AEDA8819B808B3003CF070 /* Foundation.framework */; };
+		39AEDA8B19B808B3003CF070 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AEDA8A19B808B3003CF070 /* CoreGraphics.framework */; };
+		39AEDA8D19B808B3003CF070 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AEDA8C19B808B3003CF070 /* UIKit.framework */; };
+		39AEDA9319B808B3003CF070 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39AEDA9119B808B3003CF070 /* InfoPlist.strings */; };
+		39AEDA9519B808B3003CF070 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEDA9419B808B3003CF070 /* main.m */; };
+		39AEDA9919B808B3003CF070 /* YJFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEDA9819B808B3003CF070 /* YJFAppDelegate.m */; };
+		39AEDA9B19B808B3003CF070 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39AEDA9A19B808B3003CF070 /* Images.xcassets */; };
+		39AEDAA219B808B3003CF070 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AEDAA119B808B3003CF070 /* XCTest.framework */; };
+		39AEDAA319B808B3003CF070 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AEDA8819B808B3003CF070 /* Foundation.framework */; };
+		39AEDAA419B808B3003CF070 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AEDA8C19B808B3003CF070 /* UIKit.framework */; };
+		39AEDAAC19B808B3003CF070 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39AEDAAA19B808B3003CF070 /* InfoPlist.strings */; };
+		39AEDAAE19B808B3003CF070 /* SteedLineChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEDAAD19B808B3003CF070 /* SteedLineChartTests.m */; };
+		39AEDAC419B808D4003CF070 /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEDAB919B808D4003CF070 /* PNChartLabel.m */; };
+		39AEDAC519B808D4003CF070 /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEDABB19B808D4003CF070 /* PNColor.m */; };
+		39AEDAC619B808D4003CF070 /* PNChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEDABD19B808D4003CF070 /* PNChart.m */; };
+		39AEDAC719B808D4003CF070 /* PNLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEDABF19B808D4003CF070 /* PNLineChart.m */; };
+		39AEDAC819B808D4003CF070 /* PNBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEDAC119B808D4003CF070 /* PNBarChart.m */; };
+		39AEDAC919B808D4003CF070 /* PNBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEDAC319B808D4003CF070 /* PNBar.m */; };
+		39AEDACC19B808E3003CF070 /* PCChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AEDACB19B808E3003CF070 /* PCChartViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39AEDAA519B808B3003CF070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39AEDA7D19B808B2003CF070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39AEDA8419B808B3003CF070;
+			remoteInfo = SteedLineChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39AEDA8519B808B3003CF070 /* SteedLineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteedLineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AEDA8819B808B3003CF070 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39AEDA8A19B808B3003CF070 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39AEDA8C19B808B3003CF070 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39AEDA9019B808B3003CF070 /* SteedLineChart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SteedLineChart-Info.plist"; sourceTree = "<group>"; };
+		39AEDA9219B808B3003CF070 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39AEDA9419B808B3003CF070 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39AEDA9619B808B3003CF070 /* SteedLineChart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SteedLineChart-Prefix.pch"; sourceTree = "<group>"; };
+		39AEDA9719B808B3003CF070 /* YJFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJFAppDelegate.h; sourceTree = "<group>"; };
+		39AEDA9819B808B3003CF070 /* YJFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJFAppDelegate.m; sourceTree = "<group>"; };
+		39AEDA9A19B808B3003CF070 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39AEDAA019B808B3003CF070 /* SteedLineChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteedLineChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AEDAA119B808B3003CF070 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		39AEDAA919B808B3003CF070 /* SteedLineChartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SteedLineChartTests-Info.plist"; sourceTree = "<group>"; };
+		39AEDAAB19B808B3003CF070 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39AEDAAD19B808B3003CF070 /* SteedLineChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteedLineChartTests.m; sourceTree = "<group>"; };
+		39AEDAB819B808D4003CF070 /* PNChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartLabel.h; sourceTree = "<group>"; };
+		39AEDAB919B808D4003CF070 /* PNChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChartLabel.m; sourceTree = "<group>"; };
+		39AEDABA19B808D4003CF070 /* PNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNColor.h; sourceTree = "<group>"; };
+		39AEDABB19B808D4003CF070 /* PNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNColor.m; sourceTree = "<group>"; };
+		39AEDABC19B808D4003CF070 /* PNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
+		39AEDABD19B808D4003CF070 /* PNChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChart.m; sourceTree = "<group>"; };
+		39AEDABE19B808D4003CF070 /* PNLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChart.h; sourceTree = "<group>"; };
+		39AEDABF19B808D4003CF070 /* PNLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChart.m; sourceTree = "<group>"; };
+		39AEDAC019B808D4003CF070 /* PNBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBarChart.h; sourceTree = "<group>"; };
+		39AEDAC119B808D4003CF070 /* PNBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBarChart.m; sourceTree = "<group>"; };
+		39AEDAC219B808D4003CF070 /* PNBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBar.h; sourceTree = "<group>"; };
+		39AEDAC319B808D4003CF070 /* PNBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBar.m; sourceTree = "<group>"; };
+		39AEDACA19B808E3003CF070 /* PCChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCChartViewController.h; sourceTree = "<group>"; };
+		39AEDACB19B808E3003CF070 /* PCChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCChartViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39AEDA8219B808B3003CF070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AEDA8B19B808B3003CF070 /* CoreGraphics.framework in Frameworks */,
+				39AEDA8D19B808B3003CF070 /* UIKit.framework in Frameworks */,
+				39AEDA8919B808B3003CF070 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AEDA9D19B808B3003CF070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AEDAA219B808B3003CF070 /* XCTest.framework in Frameworks */,
+				39AEDAA419B808B3003CF070 /* UIKit.framework in Frameworks */,
+				39AEDAA319B808B3003CF070 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39AEDA7C19B808B2003CF070 = {
+			isa = PBXGroup;
+			children = (
+				39AEDA8E19B808B3003CF070 /* SteedLineChart */,
+				39AEDAA719B808B3003CF070 /* SteedLineChartTests */,
+				39AEDA8719B808B3003CF070 /* Frameworks */,
+				39AEDA8619B808B3003CF070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39AEDA8619B808B3003CF070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39AEDA8519B808B3003CF070 /* SteedLineChart.app */,
+				39AEDAA019B808B3003CF070 /* SteedLineChartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39AEDA8719B808B3003CF070 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39AEDA8819B808B3003CF070 /* Foundation.framework */,
+				39AEDA8A19B808B3003CF070 /* CoreGraphics.framework */,
+				39AEDA8C19B808B3003CF070 /* UIKit.framework */,
+				39AEDAA119B808B3003CF070 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39AEDA8E19B808B3003CF070 /* SteedLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				39AEDACA19B808E3003CF070 /* PCChartViewController.h */,
+				39AEDACB19B808E3003CF070 /* PCChartViewController.m */,
+				39AEDAB719B808C2003CF070 /* PNChart */,
+				39AEDA9719B808B3003CF070 /* YJFAppDelegate.h */,
+				39AEDA9819B808B3003CF070 /* YJFAppDelegate.m */,
+				39AEDA9A19B808B3003CF070 /* Images.xcassets */,
+				39AEDA8F19B808B3003CF070 /* Supporting Files */,
+			);
+			path = SteedLineChart;
+			sourceTree = "<group>";
+		};
+		39AEDA8F19B808B3003CF070 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39AEDA9019B808B3003CF070 /* SteedLineChart-Info.plist */,
+				39AEDA9119B808B3003CF070 /* InfoPlist.strings */,
+				39AEDA9419B808B3003CF070 /* main.m */,
+				39AEDA9619B808B3003CF070 /* SteedLineChart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39AEDAA719B808B3003CF070 /* SteedLineChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				39AEDAAD19B808B3003CF070 /* SteedLineChartTests.m */,
+				39AEDAA819B808B3003CF070 /* Supporting Files */,
+			);
+			path = SteedLineChartTests;
+			sourceTree = "<group>";
+		};
+		39AEDAA819B808B3003CF070 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39AEDAA919B808B3003CF070 /* SteedLineChartTests-Info.plist */,
+				39AEDAAA19B808B3003CF070 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39AEDAB719B808C2003CF070 /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				39AEDAB819B808D4003CF070 /* PNChartLabel.h */,
+				39AEDAB919B808D4003CF070 /* PNChartLabel.m */,
+				39AEDABA19B808D4003CF070 /* PNColor.h */,
+				39AEDABB19B808D4003CF070 /* PNColor.m */,
+				39AEDABC19B808D4003CF070 /* PNChart.h */,
+				39AEDABD19B808D4003CF070 /* PNChart.m */,
+				39AEDABE19B808D4003CF070 /* PNLineChart.h */,
+				39AEDABF19B808D4003CF070 /* PNLineChart.m */,
+				39AEDAC019B808D4003CF070 /* PNBarChart.h */,
+				39AEDAC119B808D4003CF070 /* PNBarChart.m */,
+				39AEDAC219B808D4003CF070 /* PNBar.h */,
+				39AEDAC319B808D4003CF070 /* PNBar.m */,
+			);
+			name = PNChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39AEDA8419B808B3003CF070 /* SteedLineChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AEDAB119B808B3003CF070 /* Build configuration list for PBXNativeTarget "SteedLineChart" */;
+			buildPhases = (
+				39AEDA8119B808B3003CF070 /* Sources */,
+				39AEDA8219B808B3003CF070 /* Frameworks */,
+				39AEDA8319B808B3003CF070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteedLineChart;
+			productName = SteedLineChart;
+			productReference = 39AEDA8519B808B3003CF070 /* SteedLineChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39AEDA9F19B808B3003CF070 /* SteedLineChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AEDAB419B808B3003CF070 /* Build configuration list for PBXNativeTarget "SteedLineChartTests" */;
+			buildPhases = (
+				39AEDA9C19B808B3003CF070 /* Sources */,
+				39AEDA9D19B808B3003CF070 /* Frameworks */,
+				39AEDA9E19B808B3003CF070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39AEDAA619B808B3003CF070 /* PBXTargetDependency */,
+			);
+			name = SteedLineChartTests;
+			productName = SteedLineChartTests;
+			productReference = 39AEDAA019B808B3003CF070 /* SteedLineChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39AEDA7D19B808B2003CF070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YJF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yijifu;
+				TargetAttributes = {
+					39AEDA9F19B808B3003CF070 = {
+						TestTargetID = 39AEDA8419B808B3003CF070;
+					};
+				};
+			};
+			buildConfigurationList = 39AEDA8019B808B2003CF070 /* Build configuration list for PBXProject "SteedLineChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39AEDA7C19B808B2003CF070;
+			productRefGroup = 39AEDA8619B808B3003CF070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39AEDA8419B808B3003CF070 /* SteedLineChart */,
+				39AEDA9F19B808B3003CF070 /* SteedLineChartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39AEDA8319B808B3003CF070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AEDA9319B808B3003CF070 /* InfoPlist.strings in Resources */,
+				39AEDA9B19B808B3003CF070 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AEDA9E19B808B3003CF070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AEDAAC19B808B3003CF070 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39AEDA8119B808B3003CF070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AEDAC419B808D4003CF070 /* PNChartLabel.m in Sources */,
+				39AEDAC819B808D4003CF070 /* PNBarChart.m in Sources */,
+				39AEDAC519B808D4003CF070 /* PNColor.m in Sources */,
+				39AEDAC719B808D4003CF070 /* PNLineChart.m in Sources */,
+				39AEDAC619B808D4003CF070 /* PNChart.m in Sources */,
+				39AEDAC919B808D4003CF070 /* PNBar.m in Sources */,
+				39AEDACC19B808E3003CF070 /* PCChartViewController.m in Sources */,
+				39AEDA9919B808B3003CF070 /* YJFAppDelegate.m in Sources */,
+				39AEDA9519B808B3003CF070 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AEDA9C19B808B3003CF070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AEDAAE19B808B3003CF070 /* SteedLineChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39AEDAA619B808B3003CF070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39AEDA8419B808B3003CF070 /* SteedLineChart */;
+			targetProxy = 39AEDAA519B808B3003CF070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39AEDA9119B808B3003CF070 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39AEDA9219B808B3003CF070 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39AEDAAA19B808B3003CF070 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39AEDAAB19B808B3003CF070 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39AEDAAF19B808B3003CF070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39AEDAB019B808B3003CF070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39AEDAB219B808B3003CF070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SteedLineChart/SteedLineChart-Prefix.pch";
+				INFOPLIST_FILE = "SteedLineChart/SteedLineChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39AEDAB319B808B3003CF070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SteedLineChart/SteedLineChart-Prefix.pch";
+				INFOPLIST_FILE = "SteedLineChart/SteedLineChart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		39AEDAB519B808B3003CF070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SteedLineChart.app/SteedLineChart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SteedLineChart/SteedLineChart-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SteedLineChartTests/SteedLineChartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		39AEDAB619B808B3003CF070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SteedLineChart.app/SteedLineChart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SteedLineChart/SteedLineChart-Prefix.pch";
+				INFOPLIST_FILE = "SteedLineChartTests/SteedLineChartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39AEDA8019B808B2003CF070 /* Build configuration list for PBXProject "SteedLineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AEDAAF19B808B3003CF070 /* Debug */,
+				39AEDAB019B808B3003CF070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AEDAB119B808B3003CF070 /* Build configuration list for PBXNativeTarget "SteedLineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AEDAB219B808B3003CF070 /* Debug */,
+				39AEDAB319B808B3003CF070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39AEDAB419B808B3003CF070 /* Build configuration list for PBXNativeTarget "SteedLineChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AEDAB519B808B3003CF070 /* Debug */,
+				39AEDAB619B808B3003CF070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39AEDA7D19B808B2003CF070 /* Project object */;
+}
